@@ -11,7 +11,7 @@ namespace assignmentOne.Controllers
     {
 
         /// <summary>
-        /// This method returns a string containing the number that was enter.
+        /// This method returns a string containing the number that was entered.
         /// <example> GET: api/greetings/int </example>
         /// </summary>
         /// <param name="id">input number for how many people there are</param>

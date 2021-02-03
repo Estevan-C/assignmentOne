@@ -16,6 +16,7 @@ namespace assignmentOne.Controllers
         /// </summary>
         /// <param name="id">input number for math questions</param>
         /// <returns>
+        ///id = 23
         ///Here is an addition: 33
         ///A multiplication: 69
         ///A subtraction: 3
