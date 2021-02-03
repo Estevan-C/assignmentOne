@@ -15,7 +15,7 @@ namespace assignmentOne.Controllers
         /// <example>GET: api/addten/int</example>
         /// </summary>
         /// <param name="id">input number that will be added by 10</param>
-        /// <returns>10 will return 31</returns>
+        /// <returns>10 will return 20</returns>
         public int Get(int id)
         {
             return id + 10;
