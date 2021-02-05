@@ -14,7 +14,7 @@ namespace assignmentOne.Controllers
         /// This method returns a string that contains 4 math equations.
         /// <example>GET: api/numbermachine/int</example>
         /// </summary>
-        /// <param name="id">input number for math questions</param>
+        /// <param name="num">input number for math questions</param>
         /// <returns>
         ///id = 23
         ///Here is an addition: 33
