@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -26,20 +26,20 @@ namespace assignmentOne.Controllers
             double costTwo = cost / 14; 
             double costThree = Math.Ceiling(costTwo);
             double costFour =  5.50 * costThree;
-            string costFive = costThree + " fortnight at 5.50/FN = $" + costFour +" CAD";
+            string messageOne = costThree + " fortnight at 5.50/FN = $" + costFour +" CAD";
             // This math gets the correct amount for cost, and place the results in a string. 
 
             double hst = 0.13 * costFour;
             double hstTwo = Math.Round((Double)hst, 2);
-            string hstThree = " HST at 13% = " + hstTwo + " CAD";
+            string messageTwo = " HST at 13% = " + hstTwo + " CAD";
             // This math gets the correct amount for tax, and place the results in a string. 
 
             double total = costFour + hstTwo;
             double totalTwo = Math.Round((Double)total, 2);
-            string totalThree = " Total = " + totalTwo + " CAD";
+            string messageThree = " Total = " + totalTwo + " CAD";
             // This math gets the final total, and place the results in a string. 
 
-            return new string[] {costFive, hstThree, totalThree };
+            return new string[] {messageOne, messageTwo, messageThree };
             
         }
       
