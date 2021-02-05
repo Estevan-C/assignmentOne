@@ -16,9 +16,9 @@ namespace assignmentOne.Controllers
         /// </summary>
         /// <param name="id">input number that will be added by 10</param>
         /// <returns>10 will return 20</returns>
-        public int Get(int id)
+        public int Get(int num)
         {
-            return id + 10;
+            return num + 10;
         }
     }
 }
