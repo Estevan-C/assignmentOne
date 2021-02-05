@@ -21,12 +21,12 @@ namespace assignmentOne.Controllers
         ///A multiplication: 69
         ///A subtraction: 3
         ///And last a division: 11</returns>
-        public IEnumerable<string>Get(int id)
+        public IEnumerable<string>Get(int num)
         {
-            int add = id + 10;
-            int multi = id * 3;
-            int sub = id - 20;
-            int div = id / 2;
+            int add = num + 10;
+            int multi = num * 3;
+            int sub = num - 20;
+            int div = num / 2;
             return new string[] { "Here is an addition: " + add, "A multiplication: " + multi, "A subtraction: " + sub, "And last a division: " + div };
 
         }
